@@ -1,3 +1,9 @@
+<!--
+Copyright 2019 Hetzner Online GmbH
+
+SPDX-License-Identifier: Apache-2.0
+-->
+
 # Hetzner Online Tap
 
 This holds the official Hetzner Online Formulas. Taps are third-party repositories for Homebrew.

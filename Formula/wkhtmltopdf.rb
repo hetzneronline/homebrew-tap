@@ -1,3 +1,9 @@
+#
+# Copyright 2019 Hetzner Online GmbH
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
 class Wkhtmltopdf < Formula
   desc "Command line tool to render HTML into PDF and various image formats using the Qt WebKit rendering engine."
   homepage "https://wkhtmltopdf.org/"

@@ -1,3 +1,9 @@
+#
+# Copyright 2019 Hetzner Online GmbH
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
 class Rslsync < Formula
   desc "Resilio Sync is a proprietary file sharing system that relies on the BitTorrent protocol."
   homepage "https://www.resilio.com/"
