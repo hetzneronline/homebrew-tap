@@ -13,5 +13,6 @@ class Wkhtmltopdf < Formula
 
   def install
     bin.install "wkhtmltopdf"
+    bin.install "wkhtmltoimage"
   end
 end
