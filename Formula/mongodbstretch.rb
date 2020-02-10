@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-class MongodbAT9 < Formula
+class Mongodbstretch < Formula
   desc "MongoDB is a document-oriented database."
   homepage "https://www.mongodb.com/"
   url "https://downloads.mongodb.org/linux/mongodb-linux-x86_64-debian92-4.3.3.tgz"
