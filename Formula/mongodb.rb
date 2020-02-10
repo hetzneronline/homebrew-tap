@@ -12,6 +12,6 @@ class Mongodb < Formula
   version "4.3.3"
 
   def install
-    bin.install "mongodb"
+    bin.install "bin/mongod"
   end
 end
