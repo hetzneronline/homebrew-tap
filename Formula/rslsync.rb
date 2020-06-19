@@ -8,8 +8,8 @@ class Rslsync < Formula
   desc "Resilio Sync is a proprietary file sharing system that relies on the BitTorrent protocol."
   homepage "https://www.resilio.com/"
   url "https://download-cdn.resilio.com/stable/linux-x64/resilio-sync_x64.tar.gz"
-  sha256 "ce1415403e089350bf6966af08d5822defd3e6d4a1cb902abc28d6f7fc247c9f"
-  version "2.7"
+  sha256 "756f3532371a8c3c5378e7dd58600b6988e003476b50cd9179f1b2f31abfb2bd"
+  version "2.7.1"
 
   def install
     bin.install "rslsync"
