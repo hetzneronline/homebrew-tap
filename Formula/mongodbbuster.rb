@@ -7,11 +7,12 @@
 class Mongodbbuster < Formula
   desc "MongoDB is a document-oriented database."
   homepage "https://www.mongodb.com/"
-  url "https://downloads.mongodb.org/linux/mongodb-linux-x86_64-debian10-4.3.3.tgz"
-  sha256 "541e8a300ba0374e31232090fcb6c3167733eeeb8fcce31b69bbf9dc384362d3"
-  version "4.3.3"
+  url "https://downloads.mongodb.org/linux/mongodb-linux-x86_64-debian10-4.4.0.tgz"
+  sha256 "3ca9c31ecdd642920f591ecc44cb2ab39e94ca3fb2725682fbd707c5bbe5c869"
+  version "4.4.0"
 
   def install
     bin.install "bin/mongod"
+    bin.install "bin/mongo"
   end
 end
