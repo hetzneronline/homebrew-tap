@@ -7,9 +7,8 @@
 class Ffmpeg < Formula
   desc "FFmpeg is a free software project that produces libraries and programs for handling multimedia data."
   homepage "https://ffmpeg.org/"
-  url "https://github.com/hetzneronline/homebrew-packages/raw/master/ffmpeg/ffmpeg-4.3-amd64-static.tar.gz"
-  sha256 "169adb3972c94a3f6516fa5775666f69fc2db48b144ffb06bae23b55b0cc0e84"
-  version "4.3"
+  url "https://software-installer.hetzner.com/mirror/ffmpeg/4.4/ffmpeg-release-amd64-static.tar.xz"
+  sha256 "ccac14abf72e8a451d823ed09b1ea953b0bdf2814ab10fc153c753afd5fb0a20"
 
   def install
     bin.install "ffmpeg"
