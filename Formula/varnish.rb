@@ -1,8 +1,8 @@
 class Varnish < Formula
   desc "High-performance HTTP accelerator"
   homepage "https://www.varnish-cache.org/"
-  url "https://software-installer.hetzner.com/mirror/varnish/6.6.1/varnish-6.6.1.tgz"
-  sha256 "ab1a6884332731f983c8dab675c636deb3883a206c8a0127a7c663af2422e628"
+  url "https://software-installer.hetzner.com/mirror/varnish/7.0.1/varnish-7.0.1.tgz"
+  sha256 "c4e75beff0d461611742361fe8039ee1233ddf755b2b8a1e18a5fcacbe2b4660"
   license "BSD-2-Clause"
 
   depends_on "docutils" => :build
