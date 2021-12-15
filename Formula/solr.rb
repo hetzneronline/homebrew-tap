@@ -28,11 +28,6 @@ class Solr < Formula
     (var/"log/solr").mkpath
   end
 
-  service do
-    run [opt_bin/"solr", "start", "-f", "-s", HOMEBREW_PREFIX/"var/lib/solr"]
-    working_dir HOMEBREW_PREFIX
-  end
-
   test do
     ENV["SOLR_PID_DIR"] = testpath
     port = free_port
