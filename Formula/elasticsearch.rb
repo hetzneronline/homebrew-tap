@@ -1,9 +1,9 @@
 class Elasticsearch < Formula
   desc "Distributed search & analytics engine"
   homepage "https://www.elastic.co/products/elasticsearch"
-  url "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.16.2-linux-x86_64.tar.gz"
-  version "7.16.2"
-  sha256 "cd4d1e5e1f347288cc7dd439711bbbc7d3a5e0d2a272ad4f4f2f6aaf064a3051"
+  url "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.17.6-linux-x86_64.tar.gz"
+  version "7.17.6"
+  sha256 "e0ac0451798edfe3701773bdebee486c6b9759e36504e91898816ef3341c6beb"
 
   def cluster_name
     "elasticsearch_#{ENV["USER"]}"
