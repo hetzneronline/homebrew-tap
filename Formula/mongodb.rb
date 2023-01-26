@@ -7,8 +7,8 @@
 class Mongodb < Formula
   desc "MongoDB is a document-oriented database."
   homepage "https://www.mongodb.com/"
-  url "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debian10-5.0.13.tgz"
-  sha256 "cea629bcda8224613256101cd947f8e2f0d41004061c95ab94f477229242df88"
+  url "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-debian10-6.0.4.tgz"
+  sha256 "7142d5e6834a748fe4f61001b8f1d2a6b86da8df89e56a5f7ec9b44798c23ae9"
 
   def install
     bin.install "bin/mongod"
