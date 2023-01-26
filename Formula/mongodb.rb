@@ -13,6 +13,5 @@ class Mongodb < Formula
   def install
     bin.install "bin/mongod"
     bin.install "bin/mongos"
-    bin.install "bin/mongo"
   end
 end
