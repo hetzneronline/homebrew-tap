@@ -7,8 +7,8 @@
 class Node < Formula
   desc "Platform built on V8 to build network applications"
   homepage "https://nodejs.org/"
-  url "https://nodejs.org/dist/v18.13.0/node-v18.13.0-linux-x64.tar.xz"
-  sha256 "7f5d6922a91986ef059ba8a4396aa435440adacfe6fc6fab60a857c8f2cf5e7a"
+  url "https://nodejs.org/dist/v18.15.0/node-v18.15.0-linux-x64.tar.xz"
+  sha256 "c8c5fa53ce0c0f248e45983e86368e0b1daf84b77e88b310f769c3cfc12682ef"
 
   def install
     bin.install "bin/node"
