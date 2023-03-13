@@ -7,6 +7,7 @@
 class Node < Formula
   desc "Platform built on V8 to build network applications"
   homepage "https://nodejs.org/"
+  version "18.15.0"
   url "https://nodejs.org/dist/v18.15.0/node-v18.15.0-linux-x64.tar.xz"
   sha256 "c8c5fa53ce0c0f248e45983e86368e0b1daf84b77e88b310f769c3cfc12682ef"
 
